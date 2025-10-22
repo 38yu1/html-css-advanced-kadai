@@ -61,7 +61,7 @@ body {
    top: 0;
    left: 0;
    font-size: 30px;
-   /* background-color: #2710d5; */
+   background-color: #2710d5;
    color: #ffffff;
    border-radius: 0 0 476px 0;
    max-width: 620px;
@@ -756,15 +756,15 @@ body {
    /* スマホ用ナビゲーションの表示切替*/
    /* 初期状態、レイアウトと非表示設定 */
    #nav-sp {
-     background-color: #2710d5;
-     position: fixed;
-     left: 0;
-     top: 0;
-     height: 100%;
-     width: 100%;
-     display: none;
-     z-index: 100;
-   }
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80%;
+    height: 100%;
+    background: white;
+    display: none;
+    z-index: 1000;
+  }
 
       /* ×ボタン */
    #close {
